@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     swish
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001DE0, symSize: 0x778 }
+  - { offsetInCU: 0x7D, offset: 0x7D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001DE0, symSize: 0x778 }
+  - { offsetInCU: 0x26, offset: 0x436, size: 0x8, addend: 0x0, symName: _strvec_init, symObjAddr: 0x0, symBinAddr: 0x100002558, symSize: 0x70 }
+  - { offsetInCU: 0x33, offset: 0x443, size: 0x8, addend: 0x0, symName: _strvec_init, symObjAddr: 0x0, symBinAddr: 0x100002558, symSize: 0x70 }
+  - { offsetInCU: 0x5B, offset: 0x46B, size: 0x8, addend: 0x0, symName: _strvec_clear, symObjAddr: 0x70, symBinAddr: 0x1000025C8, symSize: 0xA4 }
+  - { offsetInCU: 0x9B, offset: 0x4AB, size: 0x8, addend: 0x0, symName: _strvec_add, symObjAddr: 0x114, symBinAddr: 0x10000266C, symSize: 0x174 }
+  - { offsetInCU: 0xED, offset: 0x4FD, size: 0x8, addend: 0x0, symName: _strvec_get, symObjAddr: 0x288, symBinAddr: 0x1000027E0, symSize: 0x54 }
+  - { offsetInCU: 0x123, offset: 0x533, size: 0x8, addend: 0x0, symName: _strvec_find, symObjAddr: 0x2DC, symBinAddr: 0x100002834, symSize: 0x9C }
+  - { offsetInCU: 0x175, offset: 0x585, size: 0x8, addend: 0x0, symName: _strvec_take, symObjAddr: 0x378, symBinAddr: 0x1000028D0, symSize: 0xA8 }
+  - { offsetInCU: 0x26, offset: 0x665, size: 0x8, addend: 0x0, symName: _job_list_init, symObjAddr: 0x0, symBinAddr: 0x100002978, symSize: 0x20 }
+  - { offsetInCU: 0x33, offset: 0x672, size: 0x8, addend: 0x0, symName: _job_list_init, symObjAddr: 0x0, symBinAddr: 0x100002978, symSize: 0x20 }
+  - { offsetInCU: 0x57, offset: 0x696, size: 0x8, addend: 0x0, symName: _job_list_free, symObjAddr: 0x20, symBinAddr: 0x100002998, symSize: 0x70 }
+  - { offsetInCU: 0xA5, offset: 0x6E4, size: 0x8, addend: 0x0, symName: _job_list_add, symObjAddr: 0x90, symBinAddr: 0x100002A08, symSize: 0x190 }
+  - { offsetInCU: 0x105, offset: 0x744, size: 0x8, addend: 0x0, symName: _job_list_get, symObjAddr: 0x220, symBinAddr: 0x100002B98, symSize: 0xB0 }
+  - { offsetInCU: 0x165, offset: 0x7A4, size: 0x8, addend: 0x0, symName: _job_list_remove, symObjAddr: 0x2D0, symBinAddr: 0x100002C48, symSize: 0x130 }
+  - { offsetInCU: 0x1EF, offset: 0x82E, size: 0x8, addend: 0x0, symName: _job_list_remove_by_status, symObjAddr: 0x400, symBinAddr: 0x100002D78, symSize: 0x160 }
+  - { offsetInCU: 0x26, offset: 0x9A8, size: 0x8, addend: 0x0, symName: _tokenize, symObjAddr: 0x0, symBinAddr: 0x100002ED8, symSize: 0xB8 }
+  - { offsetInCU: 0x7D, offset: 0x9FF, size: 0x8, addend: 0x0, symName: _tokenize, symObjAddr: 0x0, symBinAddr: 0x100002ED8, symSize: 0xB8 }
+  - { offsetInCU: 0xDD, offset: 0xA5F, size: 0x8, addend: 0x0, symName: _run_command, symObjAddr: 0xB8, symBinAddr: 0x100002F90, symSize: 0x6AC }
+  - { offsetInCU: 0x204, offset: 0xB86, size: 0x8, addend: 0x0, symName: _resume_job, symObjAddr: 0x764, symBinAddr: 0x10000363C, symSize: 0x308 }
+  - { offsetInCU: 0x2C6, offset: 0xC48, size: 0x8, addend: 0x0, symName: _await_background_job, symObjAddr: 0xA6C, symBinAddr: 0x100003944, symSize: 0x194 }
+  - { offsetInCU: 0x338, offset: 0xCBA, size: 0x8, addend: 0x0, symName: _await_all_background_jobs, symObjAddr: 0xC00, symBinAddr: 0x100003AD8, symSize: 0x148 }
+...
